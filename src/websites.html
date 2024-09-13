@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pantoja - Digital Portfolio</title>
+	<!-- Button Styling -->
+    <style>
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #292b3b;
+            padding: 10px;
+            border-radius: 15px;
+            font-size: 15px;
+            display: inline-block;
+        }
+
+        a:hover {
+            background-color: #c8bad6 !important;
+            color: #ffffff !important;
+        }
+
+        a:active {
+            background-color: #724a75 !important;
+            color: #ffffff !important;
+        }
+    </style>
+</head>
+<body style="background-color: #ffffff; font-family: Verdana, sans-serif; margin: 0; padding-bottom: 80px;">
+	<!-- Navigation -->
+    <nav id="top" style="background-color: #292b3b; justify-content: space-between; display: flex; align-items: center">
+        <section style="display: inline-block; text-align: right; margin-left: 100px">
+            <a title="Go to home" href="home.html" style="text-align: left">
+                <img src="images/logo.jpg" style="max-width: 80px; padding: 0px; border-radius: 100px">
+            </a>
+        </section>
+        <section style="text-align: right; margin-right: 20px">
+            <a title="Home Section" href="home.html" style="color: #ffffff; text-decoration: none; padding: 10px; border-radius: 15px; border: 2px solid #ffffff; margin: 5px">
+                Home
+            </a>
+            <a title="About Section" href="about.html" style="color: #ffffff; text-decoration: none; padding: 10px; border-radius: 15px; border: 2px solid #ffffff; margin: 5px">
+                About
+            </a>
+            <a title="Skills Section" href="skills.html" style="color: #ffffff; text-decoration: none; padding: 10px; border-radius: 15px; border: 2px solid #ffffff; margin: 5px">
+                Skills
+            </a>
+            <a title="Certifications Section" href="certifications.html" style="color: #ffffff; text-decoration: none; padding: 10px; border-radius: 15px; border: 2px solid #ffffff; margin: 5px">
+                Certifications
+            </a>
+			<a title="Contact Section" href="contact.html" style="color: #ffffff; text-decoration: none; padding: 10px; border-radius: 15px; border: 2px solid #ffffff; margin: 5px">
+				Contact
+			</a>
+		</section>
+	</nav>
+    
+	<!-- Websites and Apps Content -->
+	<section style="padding: 20px">
+    <h2 style="text-align: center; color: #292b3b">Websites and Apps</h2>
+	<!-- Division for all the projects -->
+	<div style="display: grid; grid-template-columns: 1fr 2fr; gap: 20px; align-items: start; border: 2px solid #292b3b; border-radius: 10px; padding: 20px; margin-bottom: 20px">
+		<!-- Project 1 Title and Subtitle -->
+        <div style="text-align: center; grid-column: span 2">
+            <h3 style="color: #292b3b;">Gramaticca: Filipino Grammar Checker</h3>
+			<p style="color: #292b3b; margin-top: -15px">Made in collaboration with Ramil Jaden Rapsing, Ron Iverson Roguel, Vinz Henry Rubio, Raphael Joseph Sia, and John Lorenz Vilela using <i>Figma</i></p>
+        </div>
+		<!-- Project 1 GIF -->
+        <div style="display: flex; flex-direction: column; gap: 10px">
+			<hr style="color: #292b3b">
+            <img src="images/apps/gramaticca.gif" style="width: 60%; border-radius: 10px; border: solid #292b3b 2px; margin-left: 90px">
+        </div>
+		<!-- Project 1 Description -->
+        <div>
+			<hr style="color: #292b3b">
+            <h3 style="color: #292b3b">Gramaticca</h3>
+            <p style="color: #292b3b; margin-top: -15px">The app allows users to access the Gramaticca Filipino grammar checker. This feature helps users improve their use of Filipino language much like how Grammarly does it in English. The team was able to make a prototype of the app using Figma.<br><br>Pages Overview:</p>
+			<img src="images/apps/gramaticcapages.png" style="width: 100%; border-radius: 10px; border: solid #292b3b 2px">
+        </div>
+	</div>
+	
+	<!-- Project 2 -->
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 20px; align-items: start; border: 2px solid #292b3b; border-radius: 10px; padding: 20px; margin-bottom: 20px">
+		<!-- Project 2 Title and Subtitle-->
+        <div style="text-align: center; grid-column: span 2">
+            <h3 style="color: #292b3b;">Shopping Website and Expense Tracker</h3>
+			<p style="color: #292b3b; margin-top: -15px">Made in collaboration with Jonathan De Los Santos and Vinz Henry Rubio using <i>HTML</i>,<i>CSS</i>, <i>Bootstrap</i>, and <i>XML</i></p>
+        </div>
+		<!-- Project 2 App 1 Images -->
+        <div style="display: flex; flex-direction: column; gap: 10px">
+			<hr style="color: #292b3b">
+            <img src="images/apps/shop.png" style="width: 100%; border-radius: 10px; border: solid #292b3b 2px">
+            <img src="images/apps/shop2.png" style="width: 100%; border-radius: 10px; border: solid #292b3b 2px">
+        </div>
+		<!-- Project 2 App 1 Description -->
+        <div>
+			<hr style="color: #292b3b">
+            <h3 style="color: #292b3b">Shopping Website</h3>
+            <p style="color: #292b3b; margin-top: -15px">This shopping website allows purchase and cart addition. The data is inserted in an XML document to be read and fetched by the expense tracker.<br><br>Front-end:</p>
+			<!-- Project 2 App 1 Front-end Code -->
+            <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; overflow: auto">
+                <p style="display: block; width: 920px; height: 200px; margin-top: -30px">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Hoyo Shop&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            height: 2400px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: 250px;
+            margin-bottom: 10px;
+        }
+
+        .cart {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        button {
+            border-radius: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4e8250;
+        }
+
+        button:active {
+            background-color: #90ff95;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fefefe;
+            margin: 0% auto;
+            padding: 25px;
+            border: 1px solid #888;
+            width: 100%;
+            height: 85%;
+            animation-name: modalopen;
+            animation-duration: 0.4s;
+        }
+
+        .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        @keyframes modalopen {
+            from {opacity: 0}
+            to {opacity: 1}
+        }
+
+        iframe {
+            width: 96%;
+            height: 85%;
+            margin: 3% auto;
+            position: absolute;
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+
+        .overlay-content {
+            background-color: #fefefe;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .overlay button {
+            border-radius: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;header&gt;
+    &lt;h1&gt;Hoyo Shop&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;div class="container"&gt;
+    &lt;div class="product"&gt;
+        &lt;form action="{{ url_for('insert') }}" method="POST"&gt;
+            &lt;input type="hidden" name="username" value="username"&gt;
+            &lt;input type="hidden" name="password" value="password"&gt;
+            &lt;img src="\static\js\zhongli_shirt.jpg" alt="Product 1"&gt;
+            &lt;h2&gt;Zhongli Shirt&lt;/h2&gt;
+            &lt;input type="hidden" name="product" value="Zhongli Shirt"&gt;
+            &lt;input type="hidden" name="expense" value="Clothing"&gt;
+            &lt;p&gt;P399.99&lt;/p&gt;
+            &lt;input type="hidden" name="price" value="399.99"&gt;
+            &lt;input type="hidden" name="site" value="Hoyo Shop"&gt;
+            &lt;label for="quantity"&gt;Quantity:&lt;/label&gt;
+            &lt;input class="form-control" type="number" id="quantity1" name="quantity" min="1" value="1"&gt;
+            &lt;br&gt;&lt;br&gt;
+            &lt;button type="submit" onclick="addToCart('Zhongli Shirt', 399.99, document.getElementById('quantity1').value)"&gt;Add to Cart&lt;/button&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+
+    &lt;div class="product"&gt;
+        &lt;form action="{{ url_for('insert') }}" method="POST"&gt;
+            &lt;input type="hidden" name="username" value="username"&gt;
+            &lt;input type="hidden" name="password" value="password"&gt;
+            &lt;img src="\static\js\nahida_mug.jpg" alt="Product 2"&gt;
+            &lt;h2&gt;Nahida Mug&lt;/h2&gt;
+            &lt;input type="hidden" name="product" value="Nahida Mug"&gt;
+            &lt;input type="hidden" name="expense" value="Foodware"&gt;
+            &lt;p&gt;P159.99&lt;/p&gt;
+            &lt;input type="hidden" name="price" value="159.99"&gt;
+            &lt;input type="hidden" name="site" value="Hoyo Shop"&gt;
+            &lt;label for="quantity"&gt;Quantity:&lt;/label&gt;
+            &lt;input class="form-control" type="number" id="quantity2" name="quantity" min="1" value="1"&gt;
+            &lt;br&gt;&lt;br&gt;
+            &lt;button type="submit" onclick="addToCart('Nahida Mug', 159.99, document.getElementById('quantity2').value)"&gt;Add to Cart&lt;/button&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+
+    &lt;div class="product"&gt;
+        &lt;form action="{{ url_for('insert') }}" method="POST"&gt;
+            &lt;input type="hidden" name="username" value="username"&gt;
+            &lt;input type="hidden" name="password" value="password"&gt;
+            &lt;img src="\static\js\nahida_plush.jpg" alt="Product 3"&gt;
+            &lt;h2&gt;Nahida Plush&lt;/h2&gt;
+            &lt;input type="hidden" name="product" value="Nahida Plush"&gt;
+            &lt;input type="hidden" name="expense" value="Stuffed Toy"&gt;
+            &lt;p&gt;P899.99&lt;/p&gt;
+            &lt;input type="hidden" name="price" value="899.99"&gt;
+            &lt;input type="hidden" name="site" value="Hoyo Shop"&gt;
+            &lt;label for="quantity"&gt;Quantity:&lt;/label&gt;
+            &lt;input class="form-control" type="number" id="quantity3" name="quantity" min="1" value="1"&gt;
+            &lt;br&gt;&lt;br&gt;
+            &lt;button type="submit" onclick="addToCart('Nahida Plush', 899.99, document.getElementById('quantity3').value)"&gt;Add to Cart&lt;/button&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+
+    &lt;div class="product"&gt;
+        &lt;form action="{{ url_for('insert') }}" method="POST"&gt;
+            &lt;input type="hidden" name="username" value="username"&gt;
+            &lt;input type="hidden" name="password" value="password"&gt;
+            &lt;img src="\static\js\zhongli_shoes.jpg" alt="Product 4"&gt;
+            &lt;h2&gt;Zhongli Shoes&lt;/h2&gt;
+            &lt;input type="hidden" name="product" value="Zhongli Shoes"&gt;
+            &lt;input type="hidden" name="expense" value="Shoeware"&gt;
+            &lt;p&gt;P250.00&lt;/p&gt;
+            &lt;input type="hidden" name="price" value="250.00"&gt;
+            &lt;input type="hidden" name="site" value="Hoyo Shop"&gt;
+            &lt;label for="quantity"&gt;Quantity:&lt;/label&gt;
+            &lt;input class="form-control" type="number" id="quantity4" name="quantity" min="1" value="1"&gt;
+            &lt;br&gt;&lt;br&gt;
+            &lt;button type="submit" onclick="addToCart('Zhongli Shoes', 250.00, document.getElementById('quantity4').value)"&gt;Add to Cart&lt;/button&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="cart"&gt;
+    &lt;p&gt;Cart is empty&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;!-- The Modal --&gt;
+&lt;div id="myModal" class="modal"&gt;
+    &lt;div class="modal-content"&gt;
+        &lt;span class="close"&gt;&times;&lt;/span&gt;
+        &lt;iframe id="modalFrame" src=""&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="cartOverlay" class="overlay"&gt;
+    &lt;div class="overlay-content"&gt;
+        &lt;h2&gt;Shopping Cart&lt;/h2&gt;
+        &lt;div id="cartItems"&gt;
+            &lt;p&gt;Your cart is empty&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;button onclick="hideCart()"&gt;Close Cart&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+    function addToCart(product, price, quantity) {
+        console.log(product + " added to cart. Price: " + price + ", Quantity: " + quantity);
+    }
+
+    var modal = document.getElementById("myModal");
+
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    function showCart() {
+        document.getElementById("cartOverlay").style.display = "flex";
+    }
+
+    function hideCart() {
+        document.getElementById("cartOverlay").style.display = "none";
+    }
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </p>
+            </pre>
+            <p style="color: #292b3b"><br>Back-end:</p>
+			<!-- Project 2 App 1 Back-end Code -->
+            <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; overflow: auto">
+                <p style="display: block; width: 920px; height: 200px; margin-top: -30px">
+from flask import Flask, render_template, request, redirect, url_for, flash
+from datetime import datetime
+import xml.etree.ElementTree as ET
+import xml.dom.minidom
+
+app = Flask(__name__)
+app.secret_key = "flash message"
+XML_FILE = 'userdata.xml'
+
+def parse_xml(file):
+    tree = ET.parse(file)
+    return tree.getroot()
+
+@app.route('/')
+def index():
+    try:
+        root = parse_xml(XML_FILE)
+        students = []
+        expense_types = set()
+        site_names = set()
+        for user in root.findall('user'):
+            student = [user.find(field).text for field in ['username', 'password', 'expense', 'site', 'product', 'quantity', 'price', 'totalprice']]
+
+            students.append(student)
+            expense_types.add(user.find('expense').text)
+            site_names.add(user.find('site').text)
+
+        selected_site = request.args.get('site_filter')
+        selected_expense = request.args.get('expense_filter')
+        search_query = request.args.get('search_query')
+        selected_date = request.args.get('selected_date')
+        
+        if selected_expense:
+            students = [student for student in students if student[3] == selected_expense]
+
+        if selected_site:
+            students = [student for student in students if student[4] == selected_site]
+
+        if search_query:
+            students = [student for student in students if search_query.lower() in student[5].lower()]  # Assuming product information is in index 5
+
+        return render_template('hoyoshop.html', students=students, expense_types=expense_types, site_names=site_names)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return render_template('error.html')
+
+
+def write_xml(root, file):
+    tree = ET.ElementTree(root)
+    tree.write(file, encoding='utf-8', xml_declaration=True)
+    dom = xml.dom.minidom.parse(file)
+    pretty_xml_data = dom.toprettyxml()
+    lines = filter(lambda x: not x.isspace(), pretty_xml_data.split('\n'))
+    pretty_xml_data = '\n'.join(lines)
+
+    with open(file, 'w') as formatted_file:
+        formatted_file.write(pretty_xml_data)
+
+
+@app.route('/insert', methods=['POST'])
+def insert():
+    try:
+        username = request.form['username']
+        password = request.form['password']
+        datetime_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+        expense = request.form['expense']
+        site = request.form['site']
+        product = request.form['product']
+        quantity = int(request.form['quantity'])
+        price = float(request.form['price'])
+
+        root = parse_xml(XML_FILE)
+        new_user = ET.SubElement(root, 'user')
+        ET.SubElement(new_user, 'username').text = username
+        ET.SubElement(new_user, 'password').text = password
+        ET.SubElement(new_user, 'datetime').text = datetime_str
+        ET.SubElement(new_user, 'expense').text = expense
+        ET.SubElement(new_user, 'site').text = site
+        ET.SubElement(new_user, 'product').text = product
+        ET.SubElement(new_user, 'quantity').text = str(quantity)
+        ET.SubElement(new_user, 'price').text = str(price)
+
+        totalprice = quantity * price
+        totalprice_text = "{:.2f}".format(totalprice)
+        ET.SubElement(new_user, 'totalprice').text = totalprice_text
+
+        write_xml(root, XML_FILE)
+        flash('NOTE: User data inserted successfully', 'success')
+        return redirect(url_for('index'))
+    except Exception as e:
+        print(f"NOTE: An error occurred: {e}")
+        flash('NOTE: Error occurred while inserting user data', 'error')
+        return redirect(url_for('index'))
+        
+
+@app.route('/update', methods=['POST'])
+def update():
+    try:
+        old_username = request.form['old_username']  
+        new_username = request.form['new_username']  
+
+        password = request.form['password']
+        expense = request.form['expense']
+        site = request.form['site']
+        product = request.form['product']
+        quantity = int(request.form['quantity'])
+        price = float(request.form['price'])
+
+        root = parse_xml(XML_FILE)
+        for user in root.findall('user'):
+            if user.find('username').text == old_username:
+                user.find('username').text = new_username  
+                user.find('password').text = password
+                user.find('expense').text = expense
+                user.find('site').text = site
+                user.find('product').text = product
+                user.find('quantity').text = str(quantity)
+                user.find('price').text = str(price)
+
+                totalprice = quantity * price
+                totalprice_text = "{:.2f}".format(totalprice)
+                user.find('totalprice').text = totalprice_text
+                break
+
+        write_xml(root, XML_FILE)
+        flash('NOTE: User data updated successfully', 'success')
+        return redirect(url_for('index'))
+    except KeyError as e:
+        flash(f'NOTE: Missing field in the form: {e}', 'error')
+        return redirect(url_for('index'))
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        flash('NOTE: Error occurred while updating user data', 'error')
+        return redirect(url_for('index'))
+
+@app.route('/delete', methods=['POST'])
+def delete():
+    try:
+        username = request.form['username']
+        print(f"Deleting user: {username}")
+
+        tree = parse_xml(XML_FILE)
+        root = parse_xml(XML_FILE)
+        for user in root.findall('user'):
+            if user.find('username').text == username:
+                root.remove(user)
+                break
+
+        write_xml(root, XML_FILE)
+        flash('NOTE: User data deleted successfully', 'success')
+        return redirect(url_for('index'))
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        flash('NOTE: Error occurred while deleting user data', 'error')
+        return redirect(url_for('index'))
+    
+if __name__ == "__main__":
+    app.run(debug=True,port=5002)
+                </p>
+            </pre>
+        </div>
+		<!-- Project 2 App 2 Images-->
+		<div style="display: flex; flex-direction: column; gap: 10px">
+			<hr style="color: #292b3b">
+            <img src="images/apps/expensetracker.png" style="width: 100%; border-radius: 10px; border: solid #292b3b 2px">
+            <img src="images/apps/expensetracker2.png" style="width: 100%; border-radius: 10px; border: solid #292b3b 2px">
+        </div>
+		<!-- Project 2 App 2 Description -->
+        <div>
+			<hr style="color: #292b3b">
+            <h3 style="color: #292b3b">Expense Tracker</h3>
+            <p style="color: #292b3b; margin-top: -15px">This tracks the purchases from the website by fetching the XML document. It also allows for searching items through filters like the site, name, category, recency, and date. Added to that, there's also a graph that summarizes the item purchases according to the item category.<br><br>Front-end:</p>
+			<!-- Project 2 App 2 Front-end Code -->
+            <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; overflow: auto">
+                <p style="display: block; width: 920px; height: 200px; margin-top: -30px">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/npm/chart.js&quot;&gt;&lt;/script&gt;
+    &lt;title&gt;User Expenses&lt;/title&gt;
+    &lt;link href=&quot;{{url_for(&#x27;static&#x27;, filename=&#x27;css/bootstrap.min.css&#x27;)}}&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;style&gt;
+        #expense_filter,
+        #site_filter,
+        #search_query {
+            width: 200px;
+        }
+
+        .filter-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #762869;
+        }
+
+		.filter-group {
+			display: flex;
+			align-items: center;
+			vertical-align: top;
+		}
+
+		.filterbutton {
+			width: 70px;
+			height: 34px;
+			border: none;
+			border-radius: 5px;
+			background-color: #762869;
+			color: #fff;
+			margin-left: 0px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		.filterbutton:hover {
+			background-color: #db88cd;
+		}
+
+		.filterbutton:active {
+			background-color: #ffb0f2;
+		}
+
+        button {
+            color: #fff;
+            background-color: #762869;
+        }
+
+        button:hover {
+            background-color: #db88cd;
+        }
+
+        button:active {
+            background-color: #ffb0f2;
+        }
+
+        option {
+            background-color: #ffffff;
+        }
+
+        option:hover,
+        option:focus {
+            background-color: #fcdcf7;
+            color: #000;
+        }
+
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus {
+            border: 1px solid;
+            border-color: #c273b9;
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.8);
+        }
+
+        canvas {
+            width: 70%;
+        }
+		
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class=&quot;container&quot; style=&quot;width: 1460px; height: 678px;&quot;&gt;
+        &lt;div id=&quot;expenseSummarySection&quot;&gt;
+            &lt;div class=&quot;well text-center&quot; style=&quot;color:#251024; display:flex; width:1170px; margin:auto; height:100px&quot;&gt;
+                &lt;button style=&quot;color: #fff; border:none; background-color: #db88cd; position: relative; top: 10px; left: 975px; border-radius:5px; height:50px&quot;
+                    onmouseover=&quot;this.style.backgroundColor=&#x27;#ffb0f2&#x27;&quot;
+                    onmouseout=&quot;this.style.backgroundColor=&#x27;#db88cd&#x27;&quot;
+                    onmousedown=&quot;this.style.backgroundColor=&#x27;#2e192b&#x27;&quot;
+                    onmouseup=&quot;this.style.backgroundColor=&#x27;#db88cd&#x27;&quot; onclick=&quot;toggleVisibility()&quot;&gt;Expense Tracker Data&lt;/button&gt;
+                &lt;h1 style=&quot;color:#fff; position:relative; top:0%; left: 25%&quot;&gt;Expense Summary&lt;/h1&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;canvas id=&quot;expenseGraphCanvas&quot; class=&quot;canvas-container&quot; width=&quot;200&quot;&gt;&lt;/canvas&gt;
+                    &lt;center&gt;
+                        &lt;div id=&quot;totalExpenses&quot; style=&quot;width: 30%; text-align: center;&quot;&gt;
+                            Total Expenses: &lt;span id=&quot;totalExpensesAmount&quot;&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/center&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div id=&quot;expenseTrackerSection&quot; style=&quot;display: none;&quot;&gt;
+            &lt;div class=&quot;well text-center&quot;
+                style=&quot;color:#251024; display:flex; width:1170px; margin:auto; height:100px&quot;&gt;
+                &lt;button style=&quot;color: #fff; border:none; background-color: #db88cd; position: relative; top: 10px; left: 975px; border-radius:5px; height:50px&quot;
+                    onmouseover=&quot;this.style.backgroundColor=&#x27;#ffb0f2&#x27;&quot;
+                    onmouseout=&quot;this.style.backgroundColor=&#x27;#db88cd&#x27;&quot;
+                    onmousedown=&quot;this.style.backgroundColor=&#x27;#2e192b&#x27;&quot;
+                    onmouseup=&quot;this.style.backgroundColor=&#x27;#db88cd&#x27;&quot; onclick=&quot;toggleVisibility()&quot;&gt;Expense Summary
+                    &lt;/button&gt;
+                &lt;h1 style=&quot;color:#fff; position:relative; top:0%; left: 25%&quot;&gt;Expense Tracker Data&lt;/h1&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;col md-12&quot;&gt;
+                        &lt;div class=&quot;row&quot;&gt;
+                            &lt;div class=&quot;col-md-3&quot;&gt;
+                                &lt;form action=&quot;{{ url_for(&#x27;index&#x27;) }}&quot; method=&quot;GET&quot; id=&quot;filterForm&quot;&gt;
+                                    &lt;div
+                                        style=&quot;margin:5px; top:-10%;left:-2%;width:150px;height:40px;position:relative;border-radius:5px;z-index:2;&quot;
+                                        class=&quot;form-group&quot;&gt;
+                                        &lt;label for=&quot;selected_date&quot;&gt;Filter by Date:&lt;/label&gt;
+                                        &lt;input class=&quot;form-control&quot; type=&quot;date&quot; name=&quot;selected_date&quot; id=&quot;selected_date&quot;
+                                            value=&quot;{{ request.args.get(&#x27;selected_date&#x27;) }}&quot;&gt;
+                                    &lt;/div&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;col-md-3&quot;&gt;
+                                &lt;div
+                                    style=&quot;margin:5px; top:-10%;left:-11%;width:200px;height:40px;position:relative;border-radius:5px;z-index:2;&quot;
+                                    class=&quot;form-group&quot;&gt;
+                                    &lt;label for=&quot;expense_filter&quot;&gt;Filter by Expense Type:&lt;/label&gt;
+                                    &lt;select name=&quot;expense_filter&quot; style=&quot;width:200px&quot; id=&quot;expense_filter&quot;
+                                        class=&quot;form-control&quot;&gt;
+                                        &lt;option value=&quot;&quot;&gt;All&lt;/option&gt;
+                                        {% for expense_type in expense_types %}
+                                        &lt;option value=&quot;{{ expense_type }}&quot;
+                                            {% if request.args.get(&#x27;expense_filter&#x27;) == expense_type %}selected{% endif %}&gt;{{ expense_type }}&lt;/option&gt;
+                                        {% endfor %}
+                                    &lt;/select&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;col-md-3&quot;&gt;
+                                &lt;div
+                                    style=&quot;margin:5px; top:-10%;left:-3.5%;width:200px;height:40px;position:relative;border-radius:5px;z-index:2;&quot;
+                                    class=&quot;form-group&quot;&gt;
+                                    &lt;label for=&quot;site_filter&quot;&gt;Filter by Site Name:&lt;/label&gt;
+                                    &lt;select name=&quot;site_filter&quot; style=&quot;width:200px&quot; id=&quot;site_filter&quot;
+                                        class=&quot;form-control&quot;&gt;
+                                        &lt;option value=&quot;&quot;&gt;All&lt;/option&gt;
+                                        {% for site_name in site_names %}
+                                        &lt;option value=&quot;{{ site_name }}&quot;
+                                            {% if request.args.get(&#x27;site_filter&#x27;) == site_name %}selected{% endif %}&gt;{{ site_name }}&lt;/option&gt;
+                                        {% endfor %}
+                                    &lt;/select&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;col-md-3&quot;&gt;
+                                &lt;div
+                                    style=&quot;margin:5px; top:-10%;left:-1.5%;width:200px;height:40px;position:relative;border-radius:5px;z-index:2;&quot;
+                                    class=&quot;form-group&quot;&gt;
+                                    &lt;label for=&quot;search_query&quot;&gt;Search:&lt;/label&gt;
+                                    &lt;input type=&quot;text&quot; style=&quot;width:200px&quot; class=&quot;form-control&quot; id=&quot;search_query&quot;
+                                        name=&quot;search_query&quot; value=&quot;{{ request.args.get(&#x27;search_query&#x27;) }}&quot;&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;col-md-3&quot;&gt;
+                                &lt;div class=&quot;filter-group&quot;&gt;
+                                    &lt;button type=&quot;submit&quot; style=&quot;margin-top: 20px; margin-left: 20px; height: 34px&quot;
+                                        class=&quot;filterbutton&quot;&gt;Filter&lt;/button&gt;
+                                    &lt;/form&gt;
+                                    &lt;form action=&quot;{{ url_for(&#x27;index&#x27;) }}&quot; method=&quot;GET&quot;&gt;
+                                        &lt;button style=&quot;margin-top: 20px; margin-left: 10px; height: 34px&quot; class=&quot;filterbutton&quot;&gt;Clear
+                                            Filters&lt;/button&gt;
+                                    &lt;/form&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class=&quot;container&quot;&gt;
+                            &lt;div class=&quot;row&quot;&gt;
+                                &lt;table
+                                    style=&quot;border:none; color:#251024; display: block; overflow-y: scroll; width:1000px; height:180px; margin:auto; table-layout: fixed&quot;&gt;
+                                    &lt;thead&gt;
+                                        &lt;tr style=&quot;position: relative; top:10px;&quot;&gt;
+                                            &lt;th style=&quot;text-align:center;width:20%;&quot;&gt;Expense Date&lt;/th&gt;
+                                            &lt;th style=&quot;text-align:center;width:20%;&quot;&gt;Expense Type&lt;/th&gt;
+                                            &lt;th style=&quot;text-align:center;width:20%;&quot;&gt;Site Name&lt;/th&gt;
+                                            &lt;th style=&quot;text-align:center;width:20%;&quot;&gt;Amount ($)&lt;/th&gt;
+                                            &lt;th style=&quot;text-align:center;width:20%;&quot;&gt;Comment&lt;/th&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/thead&gt;
+                                    &lt;tbody&gt;
+                                        {% for record in records %}
+                                        &lt;tr&gt;
+                                            &lt;td&gt;{{ record.date }}&lt;/td&gt;
+                                            &lt;td&gt;{{ record.expense_type }}&lt;/td&gt;
+                                            &lt;td&gt;{{ record.site_name }}&lt;/td&gt;
+                                            &lt;td&gt;{{ record.amount }}&lt;/td&gt;
+                                            &lt;td&gt;{{ record.comment }}&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        {% endfor %}
+                                    &lt;/tbody&gt;
+                                &lt;/table&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+        function toggleVisibility() {
+            var summarySection = document.getElementById(&quot;expenseSummarySection&quot;);
+            var trackerSection = document.getElementById(&quot;expenseTrackerSection&quot;);
+            var totalExpensesSection = document.getElementById(&quot;totalExpenses&quot;);
+            var filterForm = document.getElementById(&quot;filterForm&quot;);
+            var totalExpensesAmount = document.getElementById(&quot;totalExpensesAmount&quot;);
+
+            if (summarySection.style.display === &quot;none&quot;) {
+                summarySection.style.display = &quot;block&quot;;
+                trackerSection.style.display = &quot;none&quot;;
+                totalExpensesSection.style.display = &quot;block&quot;;
+                filterForm.style.display = &quot;block&quot;;
+            } else {
+                summarySection.style.display = &quot;none&quot;;
+                trackerSection.style.display = &quot;block&quot;;
+                totalExpensesSection.style.display = &quot;none&quot;;
+                filterForm.style.display = &quot;block&quot;;
+            }
+
+            updateGraph();
+        }
+
+        function updateGraph() {
+            var ctx = document.getElementById(&quot;expenseGraphCanvas&quot;).getContext(&quot;2d&quot;);
+            var expenseData = {{ expense_data | tojson }};
+            var expenseLabels = expenseData.map(function(expense) {
+                return expense.date;
+            });
+            var expenseAmounts = expenseData.map(function(expense) {
+                return expense.amount;
+            });
+
+            var chart = new Chart(ctx, {
+                type: &#x27;line&#x27;,
+                data: {
+                    labels: expenseLabels,
+                    datasets: [{
+                        label: &#x27;Expenses&#x27;,
+                        data: expenseAmounts,
+                        backgroundColor: &#x27;rgba(75, 192, 192, 0.2)&#x27;,
+                        borderColor: &#x27;rgba(75, 192, 192, 1)&#x27;,
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            var totalExpensesAmount = expenseAmounts.reduce(function(a, b) {
+                return a + b;
+            }, 0);
+            document.getElementById(&quot;totalExpensesAmount&quot;).innerText = totalExpensesAmount.toFixed(2);
+        }
+
+        window.onload = function() {
+            updateGraph();
+        };
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </p>
+            </pre>
+            <p style="color: #292b3b"><br>Back-end:</p>
+			<!-- Project 2 App 2 Back-end Code -->
+            <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; overflow: auto">
+                <p style="display: block; width: 920px; height: 200px; margin-top: -30px">
+from flask import Flask, render_template, request, redirect, url_for, flash
+from datetime import datetime
+import xml.etree.ElementTree as ET
+import xml.dom.minidom
+
+app = Flask(__name__)
+app.secret_key = "flash message"
+XML_FILE = 'userdata.xml'
+
+def parse_xml(file):
+    tree = ET.parse(file)
+    return tree.getroot()
+
+@app.route('/')
+def index():
+    try:
+        root = parse_xml(XML_FILE)
+        students = []
+        expense_types = set()
+        site_names = set()
+        for user in root.findall('user'):
+            student = [user.find(field).text for field in ['username', 'password', 'datetime', 'expense', 'site', 'product', 'quantity', 'price', 'totalprice']]
+
+            date_string = user.find('datetime').text
+            datetime_object = datetime.strptime(date_string, '%Y-%m-%d %H:%M:%S')
+            formatted_datetime = datetime_object.strftime('%Y-%m-%d %H:%M:%S')
+            student.append(formatted_datetime)
+
+            students.append(student)
+            expense_types.add(user.find('expense').text)
+            site_names.add(user.find('site').text)
+
+        selected_site = request.args.get('site_filter')
+        selected_expense = request.args.get('expense_filter')
+        search_query = request.args.get('search_query')
+        selected_date = request.args.get('selected_date')
+        
+        if selected_expense:
+            students = [student for student in students if student[3] == selected_expense]
+
+        if selected_site:
+            students = [student for student in students if student[4] == selected_site]
+
+        if search_query:
+            students = [student for student in students if search_query.lower() in student[5].lower()]  # Assuming product information is in index 5
+
+        if selected_date:
+            students = [student for student in students if selected_date in student[9]]
+
+        order_by = request.args.get('order_by', default='asc')
+        students.sort(key=lambda x: datetime.strptime(x[2], '%Y-%m-%d %H:%M:%S'), reverse=(order_by == 'desc'))
+
+        return render_template('webxml.html', students=students, expense_types=expense_types, site_names=site_names, expense_data=students)
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return render_template('error.html')
+
+
+def write_xml(root, file):
+    tree = ET.ElementTree(root)
+    tree.write(file, encoding='utf-8', xml_declaration=True)
+    dom = xml.dom.minidom.parse(file)
+    pretty_xml_data = dom.toprettyxml()
+    lines = filter(lambda x: not x.isspace(), pretty_xml_data.split('\n'))
+    pretty_xml_data = '\n'.join(lines)
+
+    with open(file, 'w') as formatted_file:
+        formatted_file.write(pretty_xml_data)
+
+
+@app.route('/insert', methods=['POST'])
+def insert():
+    try:
+        username = request.form['username']
+        password = request.form['password']
+        expense = request.form['expense']
+        site = request.form['site']
+        product = request.form['product']
+        quantity = int(request.form['quantity'])
+        price = float(request.form['price'])
+
+        root = parse_xml(XML_FILE)
+        new_user = ET.SubElement(root, 'user')
+        ET.SubElement(new_user, 'username').text = username
+        ET.SubElement(new_user, 'password').text = password
+        ET.SubElement(new_user, 'expense').text = expense
+        ET.SubElement(new_user, 'site').text = site
+        ET.SubElement(new_user, 'product').text = product
+        ET.SubElement(new_user, 'quantity').text = str(quantity)
+        ET.SubElement(new_user, 'price').text = str(price)
+
+        totalprice = quantity * price
+        totalprice_text = "{:.2f}".format(totalprice)
+        ET.SubElement(new_user, 'totalprice').text = totalprice_text
+
+        write_xml(root, XML_FILE)
+        flash('NOTE: User data inserted successfully', 'success')
+        return redirect(url_for('index'))
+    except Exception as e:
+        print(f"NOTE: An error occurred: {e}")
+        flash('NOTE: Error occurred while inserting user data', 'error')
+        return redirect(url_for('index'))
+
+
+@app.route('/update', methods=['POST'])
+def update():
+    try:
+        old_username = request.form['old_username']  
+        new_username = request.form['new_username']  
+
+        password = request.form['password']
+        expense = request.form['expense']
+        site = request.form['site']
+        product = request.form['product']
+        quantity = int(request.form['quantity'])
+        price = float(request.form['price'])
+
+        root = parse_xml(XML_FILE)
+        for user in root.findall('user'):
+            if user.find('username').text == old_username:
+                user.find('username').text = new_username  
+                user.find('password').text = password
+                user.find('expense').text = expense
+                user.find('site').text = site
+                user.find('product').text = product
+                user.find('quantity').text = str(quantity)
+                user.find('price').text = str(price)
+
+                totalprice = quantity * price
+                totalprice_text = "{:.2f}".format(totalprice)
+                user.find('totalprice').text = totalprice_text
+                break
+
+        write_xml(root, XML_FILE)
+        flash('NOTE: User data updated successfully', 'success')
+        return redirect(url_for('index'))
+    except KeyError as e:
+        flash(f'NOTE: Missing field in the form: {e}', 'error')
+        return redirect(url_for('index'))
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        flash('NOTE: Error occurred while updating user data', 'error')
+        return redirect(url_for('index'))
+
+@app.route('/delete', methods=['POST'])
+def delete():
+    try:
+        username = request.form['username']
+        print(f"Deleting user: {username}")
+
+        tree = parse_xml(XML_FILE)
+        root = parse_xml(XML_FILE)
+        for user in root.findall('user'):
+            if user.find('username').text == username:
+                root.remove(user)
+                break
+
+        write_xml(root, XML_FILE)
+        flash('NOTE: User data deleted successfully', 'success')
+        return redirect(url_for('index'))
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        flash('NOTE: Error occurred while deleting user data', 'error')
+        return redirect(url_for('index'))
+
+if __name__ == "__main__":
+    app.run(debug=True)
+                </p>
+            </pre>
+        </div>
+		<!-- Project 2 XML -->
+		<div style="display: flex; flex-direction: column; gap: 10px">
+			<hr style="color: #292b3b">
+			<!-- Project 2 XML Image -->
+            <img src="images/apps/xml.png" style="width: 100%; border-radius: 10px; border: solid #292b3b 2px">
+        </div>
+		<!-- Project 2 XML Description -->
+		<div>
+			<hr style="color: #292b3b">
+			<h3 style="color: #292b3b">XML</h3>
+			<p style="color: #292b3b; margin-top: -15px">The shopping site used this XML structure to insert data while the expense tracker fetch the data.<br><br>XML Structure:</p>
+			<!-- Project 2 XML Code -->
+			<pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px">
+                <p style="display: block; width: 920px; height: 200px; margin-top: -30px">
+&lt;?xml version="1.0" ?&gt;
+&lt;data&gt;
+	&lt;user&gt;
+		&lt;username&gt;username&lt;/username&gt;
+		&lt;password&gt;password&lt;/password&gt;
+		&lt;datetime&gt;2023-11-27 09:21:57&lt;/datetime&gt;
+		&lt;expense&gt;Foodware&lt;/expense&gt;
+		&lt;site&gt;Hoyo Shop&lt;/site&gt;
+		&lt;product&gt;Nahida Mug&lt;/product&gt;
+		&lt;quantity&gt;1&lt;/quantity&gt;
+		&lt;price&gt;159.99&lt;/price&gt;
+		&lt;totalprice&gt;159.99&lt;/totalprice&gt;
+	&lt;/user&gt;
+&lt;/data&gt;
+				</p>
+			</pre>
+		</div>
+	</div>
+	
+	<!-- Project 3 -->
+	<div style="display: grid; grid-template-columns: 1fr 2fr; gap: 20px; align-items: start; border: 2px solid #292b3b; border-radius: 10px; padding: 20px; margin-bottom: 20px">
+		<!-- Project 3 Title and Subtitle -->
+        <div style="text-align: center; grid-column: span 2">
+            <h3 style="color: #292b3b;">EMCinema</h3>
+			<p style="color: #292b3b; margin-top: -15px">Made in collaboration with John Ray Buenaobra, Prince Jerick Mirandilla, and Vinz Henry Rubio using <i>Flutterflow</i> and <i>Firebase</i></p>
+        </div>
+		<!-- Project 3 GIF -->
+        <div style="display: flex; flex-direction: column; gap: 10px">
+			<hr style="color: #292b3b">
+            <img src="images/apps/emcinema.gif" style="width: 60%; border-radius: 10px; border: solid #292b3b 2px; margin-left: 90px">
+        </div>
+		<!-- Project 3 Description -->
+        <div>
+			<hr style="color: #292b3b">
+            <h3 style="color: #292b3b">EMCinema</h3>
+            <p style="color: #292b3b; margin-top: -15px">The app allows admins to upload, edit, and delete records of animated movies while being able to browse and watch movies from the collection. Users on the other hand, can only browse and watch. Using Firebase, the app can insert, update, and delete movie entries and account credentials.<br><br>Database Schema:</p>
+			<img src="images/apps/schema.png" style="width: 100%; border-radius: 10px; border: solid #292b3b 2px">
+        </div>
+	</div>
+</section>
+
+	<!-- Go Back Button -->
+    <a title="Click to go back" href="skills.html#skills" style="text-decoration: none; display: block; margin: 10px auto; text-align: center; width: fit-content; margin-bottom: 70px; font-size: 30px; padding-left: 15px; padding-right: 15px">
+		<b>Go Back</b>
+    </a>
+    <br><br><br>
+    
+	<!-- Footer -->
+    <footer style="background-color: #292b3b; color: #ffffff; padding-top: 15px; padding-bottom: 15px; width: 100%; position: fixed; bottom: 0; left: 0; text-align: center; border-top: solid #ffffff 2px;">
+        <a title="Go to home" href="home.html">
+            <img src="images/home.png" style="max-width: 50px; border-radius: 100px">
+        </a>
+        <a title="Go back to the top" href="#top">
+            <img src="images/up.png" style="max-width: 50px; border-radius: 100px">
+        </a>
+    </footer>
+</body>
+</html>
